@@ -17,11 +17,16 @@ body {
   background-position: center 200px; */ 
  }
 
-div#header {
+#header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
-  background: rgba(255,255,255,.5) url(images/purpledot.png) repeat-x center top fixed;
+  background: url(images/purpledot.png) center top repeat-x fixed;
+  background:
+    url(images/purpledot.png) left top repeat-y,
+    url(images/purpledot.png) right top repeat-y,
+    url(images/gooseshadow.png) 90% bottom no-repeat;
+  background-color: rgba(255,255,255,.5);
  }
 
 a{

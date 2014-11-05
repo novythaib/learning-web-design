@@ -102,7 +102,7 @@ a:active {
   line-height: 1.5em;
   padding: 1em;
   border: double #FFBC53;
-  margin: 1em;  
+  margin: 1em 20.5em 1em 1em;  
   }
 #products h2 {
   font-size: 1.2em;
@@ -130,9 +130,11 @@ a:active {
   padding: 1em;
   padding-left: 55px;
   border-radius: 20px;
-  margin-top: 1em;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 1em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14em;
   }
   
 #testimonials h2 {
@@ -156,8 +158,15 @@ p#copyright {
   text-align: center;
   }
 
-
+#award{
+  position: absolute;
+  top: 35px;
+  left: 25px;
+}
 	
+#content{
+  position: relative;
+}
 	
 </style>
 
@@ -205,8 +214,16 @@ p#copyright {
   <p>&quot;Thanks for the cool Jenware barware. I couldn't wait until I found &quot;Mr. Right,&quot; so I just bought a set for myself! My friends always want to know where I got them so I send them to your site.&quot; </p>
 </div>
 <p>&nbsp;</p>
+
+<div id="content">
+  <div id="products">...</div>
+  <div id="testimonials">...</div>
+  </div>
 <p id="copyright">All content copyright &copy; Jennifer Robbins and Jenware, Inc. </p>
 
+<div id="award">
+  <img src="images/awesomesite.gif" alt="awesome site of the week">
+  </div>
 </div><!-- end #content -->
 </body>
 </html>

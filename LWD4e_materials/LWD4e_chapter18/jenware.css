@@ -5,6 +5,7 @@ body {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 100%;
   margin: 0;
+  
 
 /* background gradient at top of page, from http://www.colorzilla.com/gradient-editor/ */
   background: -moz-linear-gradient(top,  #ffa853 0%, #fdf9bd 2%);
@@ -18,6 +19,9 @@ body {
   background-color: #fdf9bd; /* Old browsers */
 }
 
+img{
+  max-width: 100%;
+}
 
 /* link styles */
 a {
